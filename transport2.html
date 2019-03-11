@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Automated control system</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<style type="text/css">
+		body{/*
+			background-image:url("map2.jpg");
+			background-repeat: no-repeat;*/
+		}
+		i{
+			font-size: 100px;
+		}
+		table{
+			margin-left: 20%;
+			margin-top: 5%;
+			background-image:url("map2.jpg");
+			background-repeat: no-repeat;
+		}
+		#right{
+			padding-left: 155%;
+			padding-top: 20%;
+			color: red;
+		}
+		#left{
+			/*padding-left: 4%;*/
+			padding-top: 40%;
+			padding-right: 40%;
+			color: green;
+		}
+		#front{
+			padding-bottom: 40%;
+			padding-left: 135%;
+		}
+		#rear{
+			padding-left:135%;
+			padding-top: 10%; 
+			}		
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td></td>		
+			<td><i class="fas fa-traffic-light" id="front"></i></td>		
+			<td></td>		
+		</tr>
+		<tr>
+			<td><i class="fas fa-traffic-light fa-rotate-270" id="left"></i></td>		
+			<td></td>		
+			<td><i class="fas fa-traffic-light" id="right"></i></td>		
+		</tr>
+		<tr>
+			<td></td>		
+			<td><i class="fas fa-traffic-light" id="rear"></i></td>		
+			<td></td>		
+		</tr>
+	</table>	
+</body>
+</html>
